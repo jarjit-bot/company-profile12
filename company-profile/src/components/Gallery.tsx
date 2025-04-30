@@ -15,7 +15,7 @@ export default function Gallery() {
             {/* Header */}
             <div className="text-center mb-16">
                 <h2 className="text-3xl md:text-5xl font-extrabold text-yellow-400 mb-6 uppercase tracking-wide">
-                    Our Gallery
+                    OUR GALLERY
                 </h2>
                 <p className="text-gray-400 text-lg max-w-3xl mx-auto">
                     Koleksi momen terbaik dari perjalanan dan pencapaian.

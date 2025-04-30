@@ -6,7 +6,7 @@ export default function News() {
     const newsArticles = [
         {
             title: "Transisi ke Energi Terbarukan",
-            description: "PAMA pelan-pelan bertransisi menuju energi terbarukan dan ramah lingkungan. Salah satunya melalui pemasangan pembangkil listrik tenaga surya (PLTS) di kantor pusat PAMA. External Department Head PAMA Gunawan Setiadi mengatakan pemasangan panel surya tersebut dilakukan dalam tiga tahap. Mulai dari Gedung PAMA 3, PAMA 2 dan skybridge, hingga berlanjut ke skybridge arah selatan. ",
+            description: "PAMA pelan-pelan bertransisi menuju energi terbarukan dan ramah lingkungan. Salah satunya melalui pemasangan pembangkil listrik tenaga surya (PLTS) di kantor pusat PAMA. External Department Head PAMA Gunawan Setiadi mengatakan pemasangan panel surya tersebut dilakukan dalam tiga tahap. Mulai dari Gedung PAMA 3, PAMA 2 dan skybridge, hingga berlanjut ke skybridge arah selatan.",
             image: news1,
             date: "5 September 2023"
         },
@@ -29,7 +29,7 @@ export default function News() {
             {/* Header */}
             <div className="text-center mb-16">
                 <h2 className="text-3xl md:text-5xl font-extrabold text-yellow-400 mb-6 uppercase tracking-wide">
-                    Latest News
+                    LATEST NEWS
                 </h2>
                 <p className="text-gray-400 text-lg max-w-3xl mx-auto">
                     Tetap terupdate dengan berita terbaru dari perusahaan kami dalam industri pertambangan.
@@ -39,19 +39,26 @@ export default function News() {
             {/* News Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {newsArticles.map((news, index) => (
-                    <div key={index} className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                    <div
+                        key={index}
+                        className="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col transform transition duration-300 hover:scale-105"
+                    >
                         <img
                             src={news.image}
                             alt={news.title}
                             className="w-full h-56 object-cover"
                         />
-                        <div className="p-6">
-                            <p className="text-sm text-gray-400">{news.date}</p>
-                            <h3 className="text-xl font-bold text-yellow-400 mt-2">{news.title}</h3>
-                            <p className="text-gray-300 mt-2">{news.description}</p>
-                            <button className="mt-4 px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded-lg hover:bg-yellow-500 transition">
-                                Read More
-                            </button>
+                        <div className="p-6 flex flex-col flex-grow">
+                            <div>
+                                <p className="text-sm text-gray-400">{news.date}</p>
+                                <h3 className="text-xl font-bold text-yellow-400 mt-2">{news.title}</h3>
+                                <p className="text-gray-300 mt-2">{news.description}</p>
+                            </div>
+                            <div className="mt-auto pt-4">
+                                <button className="px-4 py-2 bg-yellow-400 text-gray-900 font-semibold rounded-lg hover:bg-yellow-500 transition">
+                                    Read More
+                                </button>
+                            </div>
                         </div>
                     </div>
                 ))}

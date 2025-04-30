@@ -21,10 +21,10 @@ export default function Career() {
             {/* Job Listings */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                 {jobs.map((job, index) => (
-                    <div key={index} className="bg-gray-800 border border-gray-700 p-6 rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl">
-                        <h3 className="text-xl font-semibold text-yellow-400 mb-2">{job.title}</h3>
-                        <p className="text-gray-300">{job.location}</p>
-                        <span className="block text-sm text-gray-400 mt-1">{job.type}</span>
+                    <div key={index} className="bg-gray-800 border border-gray-700 p-6 rounded-4xl shadow-lg transition-all duration-300 hover:shadow-2xl">
+                        <h3 className="text-l font-bold text-yellow-400 mb-2">{job.title}</h3>
+                        <span className="text-2x1 block text-gray-400 mt-1">{job.type}</span>
+                        <p className="text-white font-semibold">{job.location}</p>
                         <button className="mt-4 bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-500 transition">
                             Apply Now
                         </button>

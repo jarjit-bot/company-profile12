@@ -2,7 +2,7 @@ import Trek from "../assets/img/Trek.jpg";
 export default function Home() {
     return (
         <div
-            className="relative h-screen bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center items-start text-left px-8 md:px-16 lg:pl-24">
+            className="relative  bg-cover bg-center bg-no-repeat h-screen flex flex-col justify-center items-start text-left px-8 md:px-16 lg:pl-24">
             {/* Overlay untuk mempergelap background agar teks lebih terbaca */}
             <div className="absolute inset-0">
                 <img
@@ -22,7 +22,7 @@ export default function Home() {
                     Perubahan Menuju Energi yang Lebih Efisien
                 </h2>
                 <div className="mt-6">
-                    <button className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full text-lg font-semibold text-white shadow-lg transition-all duration-300">
+                    <button className="bg-yellow-500 hover:bg-yellow-500 px-8 py-3 rounded-full text-lg font-semibold text-white shadow-lg transition-all duration-300">
                         Get Started
                     </button>
                 </div>

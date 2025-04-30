@@ -37,8 +37,8 @@ export default function Services() {
     return (
         <section id="services" className="bg-gray-900 text-white py-20 px-6 md:px-12 lg:px-24">
             <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-5xl font-extrabold text-white mb-6 uppercase tracking-wide">
-                    Our Services
+                <h2 className="text-3xl md:text-5xl font-extrabold text-yellow-500 mb-6 uppercase tracking-wide">
+                    OUR SERVICES
                 </h2>
                 <p className="text-gray-400 text-lg max-w-3xl mx-auto">
                     PT PAMAPERSADA NUSANTARA menyediakan berbagai layanan untuk mendukung industri pertambangan dengan teknologi modern, efisiensi tinggi, dan kepatuhan terhadap standar keselamatan dan lingkungan.

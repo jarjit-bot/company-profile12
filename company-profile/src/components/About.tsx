@@ -15,8 +15,8 @@ export default function About() {
   
           {/* Bagian Teks */}
           <div className="w-full md:w-1/2 text-left">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-green-400 mb-4">
-              About Us
+            <h2 className="text-3xl md:text-4xl font-extrabold text-green- mb-4">
+              ABOUT US
             </h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
             Kami Adalah Perusahaan Produsen Energi Kelas Dunia Yang Andal, Efisien dan Terbaik di Indonesia.
@@ -41,7 +41,7 @@ export default function About() {
   
             {/* Tombol CTA */}
             <div className="mt-6">
-              <button className="bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full text-lg font-semibold text-white shadow-lg transition-all duration-300">
+              <button className="bg-yellow-500 hover:bg-yellow-500 px-8 py-3 rounded-full text-lg font-semibold text-white shadow-lg transition-all duration-300">
                 Pelajari Lebih Lanjut
               </button>
             </div>

@@ -16,7 +16,7 @@ export default function Team() {
             {/* Header */}
             <div className="text-center mb-16">
                 <h2 className="text-3xl md:text-5xl font-extrabold text-yellow-400 mb-6 uppercase tracking-wide">
-                    Meet Our Team
+                    MEET OUR TEAM
                 </h2>
                 <p className="text-gray-400 text-lg max-w-3xl mx-auto">
                     Tim kami terdiri dari para profesional yang berpengalaman dan berdedikasi untuk membawa perusahaan ke tingkat berikutnya.
